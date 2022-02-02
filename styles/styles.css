@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#form{
+    width: 40%;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+button{
+    background-color: rgb(119, 52, 182);
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(116, 9, 216);
+}
